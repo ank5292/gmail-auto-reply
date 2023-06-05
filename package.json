@@ -1,0 +1,26 @@
+{
+  "name": "gmail-auto-reply",
+  "version": "1.0.0",
+  "description": "app to auto reply your gmail app using gmail api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ank5292/gmail-auto-reply.git"
+  },
+  "author": "Ankit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ank5292/gmail-auto-reply/issues"
+  },
+  "homepage": "https://github.com/ank5292/gmail-auto-reply#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "express": "^4.18.2",
+    "googleapis": "^105.0.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.3"
+  }
+}
