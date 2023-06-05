@@ -7,3 +7,12 @@
 5) nodemailer libary to compose the mail in format accordance with google api
 
 
+# Area where it can improve
+
+1) I have used the file to store the credentials and in-memory taskqueue this can be move to persistance storage 
+2) Outh client id and client can be move to env variable
+3) Currently using the postman for request and response , this can be shifted to UI
+4) Reply to thread can be extened to cc and bcc also
+5) Need to have the Validation and error handling
+6) Require to add timestamp logger 
+7) Can be more optimize the api call by using timestamp updation
